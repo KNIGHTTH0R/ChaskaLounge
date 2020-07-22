@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-body {
+html, body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -152,7 +152,6 @@ Owl carousel
     background-attachment: local;
     background-size: cover;
     height: 100vh;
-    width: 100%;
     overflow-x: hidden;
   }
 

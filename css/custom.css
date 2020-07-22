@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 html, body {
-    background: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
+  background: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 /*----------------------------------
@@ -46,27 +46,27 @@ h2{
 /*-----------------------
   Navbar customization
  ----------------------*/
- .navbar{
+.navbar{
  	padding: 1.5em;
- }
+}
  .navbar .navbar-brand{
- 	font-size: 18px;
+	font-size: 18px;
  	font-weight: bold;
  	margin-left: 1.5em;
  	color: white;
- }
- .navbar .nav-item .nav-link{
+}
+.navbar .nav-item .nav-link{
  	font-size: 14px;
  	padding: .3125rem 1.05em;
  	font-weight: 500;
  	color: white;
- }
+}
 .navbar .nav-item .nav-link:hover{
  	padding: .3125rem 1.05em;
  	font-weight: 500;
  	color: #b30000;
  	transition-duration: 0.5s;
- }
+}
 
  @media only screen and (min-device-width:992px){
     .top-nav-collapse {
@@ -103,7 +103,7 @@ h2{
     .navbar .navbar-brand {
       color: #454545;
       font-size: 18px;
- 	  font-weight: bold;
+ 	    font-weight: bold;
     }
     .navbar .nav-item{
       margin-left: 1.25em;
@@ -129,54 +129,54 @@ Owl carousel
 /*-------------------------------
    Top slider
 ---------------------------*/
-  .slider .caption {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-    background-color: rgba(20,20,20,0.2);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    color: #fff;
-    cursor: pointer;
-    padding: 0;
-  }
+.slider .caption {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  background-color: rgba(20,20,20,0.2);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
 
-  .slider .item {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-    height: 100vh;
-    overflow-x: hidden;
-  }
+.slider .item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+}
 
-  .slider .item-first {
-    background-image: url(../images/slider-1.jpg);
-    overflow-x: hidden;
-  }
+.slider .item-first {
+  background-image: url(../images/slider-1.jpg);
+  overflow-x: hidden;
+}
 
-  .slider .item-second {
-    background-image: url(../images/slider-2.jpg);
-  }
+.slider .item-second {
+  background-image: url(../images/slider-2.jpg);
+}
 
-  .slider .item-third {
-    background-image: url(../images/slider-3.jpg);
-  }
-  .owl-carousel .caption .col-md-7{
-  	background: rgba(0,0,0,0.6);
-    border-radius: 1.2em;
-  }
-  #owl-two .owl-dots{
-  	display: none;
-  }
-  #owl-three .owl-dots{
-    display: none;
-  }
+.slider .item-third {
+  background-image: url(../images/slider-3.jpg);
+}
+.owl-carousel .caption .col-md-7{
+  background: rgba(0,0,0,0.6);
+  border-radius: 1.2em;
+}
+#owl-two .owl-dots{
+  display: none;
+}
+#owl-three .owl-dots{
+  display: none;
+}
 
 /*--------------------------------
          Ambiance
@@ -213,50 +213,56 @@ Contact
 /*------------------------
  Footer
  -----------------------*/
- #footer .backg{
+#footer .backg{
  	color: white;
  	padding: 2em;
  	width: 100%;
-    background-image: url(../images/footer.png);
-    background-size: cover;
-    border-radius: 20px;
-    margin-top: 0;
-    overflow: hidden;
-    position: relative;
-    z-index: 22;
- }
- #footer h4{
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 22;
+}
+#footer h4{
  	font-weight: bold;
- }
- #footer a{
+}
+#footer a{
  	color: rgba(10,10,10,0.8);
  	text-decoration: none;
  	padding: 0 0.4em;
- }
+}
 
- /*---------------------------
+/*---------------------------
    Testimonials
  --------------------------*/
-  #testimonial {
-    background: url('../images/blogmeet.jpg') center center no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-   #testimonial p {
-    color: #d9d9d9;
-    font-size: 18px;
-    line-height: 35px;
-  }
-  #testimonial a{
-    text-decoration: none;
-    color: #bbb;
-  }
-  .tst-author {
-    margin-top: 20px;
-  }
+#testimonial {
+  background: url('../images/blogmeet.jpg') center center no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#testimonial p {
+  color: #d9d9d9;
+  font-size: 18px;
+  line-height: 35px;
+}
+#testimonial a{
+  text-decoration: none;
+  color: #bbb;
+}
+.tst-author {
+  margin-top: 20px;
+}
+.tst-author h4,
+.tst-author span {
+  color: #fff;
+}
 
-  .tst-author h4,
-  .tst-author span {
-    color: #fff;
-  }
-
+/*-------------------------------------
+     Blogger's Meet Page
+-----------------------------------*/
+.meet-bgintro{
+  background-image: url(../images/blogmeet.jpg);
+  min-height: 100vh;
+}
